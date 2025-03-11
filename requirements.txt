@@ -1,5 +1,6 @@
 annotated-types
 anyio
+alembic
 bcrypt
 cffi
 click
