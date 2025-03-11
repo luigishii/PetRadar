@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "formatters": {
+        "default": {
+            "format": "%(asctime)s %(filename)s %(lineno)s %(funcName)s %(levelname)-8s %(message)s"
+        }
+    },
+    "handlers": {
+        "INFO": {
+            "class": "logging.FileHandler",
+            "filename": "log/%DATE%.log",
+            "formatter": "default",
+            "level": "DEBUG"
+        }
+    },
+    "root": {
+        "level": "DEBUG",
+        "handlers": ["INFO"]
+    }
+}
