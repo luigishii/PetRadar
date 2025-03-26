@@ -1,0 +1,70 @@
+# Arquivos gerados por macOS
+.DS_Store
+tools/
+log/
+logs/
+src_old/
+version/
+
+# Arquivos gerados por navegadores
+*.swp
+*~
+
+# Arquivos de texto gerados pelo TextEdit.app
+*.rtf
+
+# Arquivos gerados pelo Spotlight
+.metadata_never_index
+
+# Arquivos gerados pelo macOS Finder
+ehthumbs.db
+Icon?
+
+# Byte-compiled / arquivos compilados do Python
+__pycache__/
+*.py[cod]
+
+# Arquivos gerados pelo pipenv ou virtualenv
+/.venv
+/venv
+/pipenv.lock
+
+# Dependências instaladas
+/lib/
+/build/
+/dist/
+/*.egg-info/
+
+# Arquivos gerados pelo npm ou yarn
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# Arquivos gerados pelo webpack
+/dist/
+
+# Arquivos gerados pelo Babel
+/.babelrc
+
+# Arquivos gerados pelo ESLint
+/.eslintrc
+/.eslintcache
+
+# Arquivos gerados pelo Jest
+/coverage/
+
+# Arquivos gerados pelo Parcel
+/.cache/
+
+# Arquivos contendo variáveis de ambiente
+.env*
+.env.local
+.idea/
+idea/
+.tmp/
+tmp/
+
+server.crt
+server.key
+
+
