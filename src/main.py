@@ -10,6 +10,7 @@ from starlette.middleware.cors import CORSMiddleware
 #project
 from src.router.login import app as login_app
 from src.router.users import app as users_app
+from src.router.pets import app as pets_app
 
 
 # Logging setup
@@ -50,6 +51,7 @@ app.add_middleware(
 # # Include routers
 app.include_router(login_app)
 app.include_router(users_app)
+app.include_router(pets_app)
 
 
 # Defina o limite máximo de solicitações por IP e o período de tempo em segundos

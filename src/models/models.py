@@ -1,3 +1,5 @@
+from datetime import datetime
+from uuid import UUID
 from pydantic import BaseModel, EmailStr, Field
 from typing import Optional
 
@@ -44,3 +46,13 @@ class UpdateUserRequest(BaseModel):
     phone: Optional[str] = None
     work_phone: Optional[str] = None
     work_email: Optional[EmailStr] = None
+    
+    
+class CreatePetRequest(BaseModel):
+    name: str
+    pet_type: str
+    size: str
+    health_status: str
+    breed_name: str  # Alterado de breed_type_id para breed_name
+    size_name: Optional[str] = None  # Novo campo para nome do tamanho
+    found_at: Optional[datetime] = None
