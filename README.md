@@ -29,6 +29,8 @@ A proposta deste projeto é desenvolver um aplicativo inovador que auxilia propr
     DB_HOST=127.0.0.1
     DB_PORT=5432
 
+    SECRET_KEY = PetRadar
+
 
 
     ALEMBIC_ACCESS=postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}
